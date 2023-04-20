@@ -180,15 +180,13 @@
   }
 }
 
-
-
 @media only screen and (max-width:992px) {
   .mobile {
     align-items: center;
 
   }
   .title {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin: 2rem 0;
     align-items: center;
     justify-content: center;

@@ -178,18 +178,19 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>NFT Celestia Whitelist</title>
+        <title>CELESTIA NFT COLLECTION WHITELIST</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Celestia Blockchain</h1>
+          <h1 className={styles.title}>CELESTIA NFT COLLECTION WHITELIST</h1>
           <div className={styles.description}>
-            It&#39;s an NFT collection for light node runner of project.
+            It&#39;s an NFT collection for early Node Runners on Celestia
+            Network.
           </div>
           <div className={styles.description}>
-            {numberOfWhitelisted} have already joined the Whitelist
+            {numberOfWhitelisted} joined the Whitelist
           </div>
           {renderButton()}
         </div>
